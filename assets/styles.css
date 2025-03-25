@@ -1,0 +1,246 @@
+/* styles.css */
+/* Add to styles.css */
+.text-primary {
+    color: #301C02 !important;
+}
+
+.form-select:focus {
+    border-color: rgb(33, 68, 135) !important;
+    box-shadow: 0 0 0 0.2rem rgba(33, 68, 135, 0.25) !important;
+}
+#preset-scenario-description-spatial
+{
+    padding: 0px;
+}
+.scenario-description-box ul,
+.scenario-description-box ol {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Update slider styles */
+.rc-slider-track {
+    background-color: #62533E55 !important;
+}
+
+.rc-slider-handle {
+    border: 2px solid rgb(33, 68, 135) !important;
+}
+
+.rc-slider-dot {
+    border: 1px solid rgb(33, 68, 135) !important;
+}
+
+.rc-slider-handle:hover {
+    border-color: rgb(33, 68, 135) !important;
+}
+
+.rc-slider-handle:active {
+    border-color: rgb(33, 68, 135) !important;
+    box-shadow: 0 0 5px rgb(33, 68, 135) !important;
+}
+
+/* Switch styling */
+.custom-switch .form-check-input:checked {
+    background-color: rgb(33, 68, 135) !important;
+    border-color: rgb(33, 68, 135) !important;
+}
+
+.custom-switch .form-check-input:focus {
+    border-color: rgb(33, 68, 135) !important;
+    box-shadow: 0 0 0 0.2rem rgba(33, 68, 135, 0.25) !important;
+}
+
+.slider-group {
+    margin-bottom: 12px;
+}
+
+.slider-label {
+    padding-bottom: 10px;
+}
+
+#opacity-slider
+{
+    padding: 0px 5px 20px 5px !important;
+}
+/* Add this to your CSS file */
+
+.major-slider-container {
+    /* margin-bottom: 10px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px;
+    padding-bottom:7px;
+    border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.minor-slider-container {
+    margin-bottom: 6px;
+    padding: 6px;
+    border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.minor-sliders-group {
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.slider-label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.minor-slider-label {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+.collapse-button {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Color-specific classes */
+.bog-container {
+    background-color: #8B451344;
+    border: 2px solid #8B4513;
+}
+
+.fen-container {
+    background-color: #2E8B5744;
+    border: 2px solid #2E8B57;
+}
+
+.marsh-container {
+    background-color: #20B2AA44;
+    border: 2px solid #20B2AA;
+}
+
+.swamp-container {
+    background-color: #1B4D3E44;
+    border: 2px solid #1B4D3E;
+}
+
+.upland-container {
+    background-color: #8B735544;
+    border: 2px solid #8B7355;
+}
+
+/* Minor container variants */
+.bog-minor-container {
+    background-color: #8B451322;
+    border: 1px solid #8B4513;
+}
+
+.fen-minor-container {
+    background-color: #2E8B5722;
+    border: 1px solid #2E8B57;
+}
+
+.marsh-minor-container {
+    background-color: #20B2AA22;
+    border: 1px solid #20B2AA;
+}
+
+.swamp-minor-container {
+    background-color: #1B4D3E22;
+    border: 1px solid #1B4D3E;
+}
+
+.upland-minor-container {
+    background-color: #8B735522;
+    border: 1px solid #8B7355;
+}
+.dash-table-tooltip {
+    width: 80px !important;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    text-align: center !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    padding: 4px !important;
+}
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
+@keyframes shake2 {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
+@keyframes fadeOutThick {
+    0%, 50% { 
+        border-color: #ea0d0dd2;  /* Only change the border color */
+        border-width: 2px;        /* And width */
+    }
+    100% { }
+}
+
+@keyframes fadeOutThin {
+    0%, 50% { 
+        border-color: #ea0d0dd2;  /* Only change the border color */
+        border-width: 1px;        /* And width */
+    }
+    100% { }
+}
+@keyframes fadeOutThick2 {
+    0%, 50% { 
+        border-color: #ea0d0dd2;  /* Only change the border color */
+        border-width: 2px;        /* And width */
+    }
+    100% { }
+}
+
+@keyframes fadeOutThin2 {
+    0%, 50% { 
+        border-color: #ea0d0dd2;  /* Only change the border color */
+        border-width: 1px;        /* And width */
+    }
+    100% { }
+}
+
+.slider-error-1.major-slider-container {
+    animation: shake 0.5s ease-in-out,
+               fadeOutThick 2s ease-in-out forwards;
+}
+
+.slider-error-1.minor-slider-container {
+    animation: shake 0.5s ease-in-out,
+               fadeOutThin 2s ease-in-out forwards;
+}
+
+.slider-error-2.major-slider-container {
+    animation: shake2 0.5s ease-in-out,
+               fadeOutThick2 2s ease-in-out forwards;
+}
+
+.slider-error-2.minor-slider-container {
+    animation: shake2 0.5s ease-in-out,
+               fadeOutThin2 2s ease-in-out forwards;
+}
+
+
+.highlight-cell {
+    transition: background-color 0.25s ease;
+}
+
+.negative-change {
+    color: #dc3545 !important;
+}
+
+.changed-cell {
+    background-color: #1ef0609b;
+    transition: background-color 0.25s ease;
+}

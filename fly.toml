@@ -1,0 +1,10 @@
+# fly.toml file generated for rlbp on 2025-03-25T12:24:37-06:00
+
+app = "rlbp"
+primary_region = "sea"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[env]
+  PORT = "8080"
